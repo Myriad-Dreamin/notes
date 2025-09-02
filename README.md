@@ -88,8 +88,6 @@ Create a new note in [`content/notes`:](./content/notes/)
 )
 ```
 
-The `blog-tags` index is defined in [`content/article/blog-tags.typ`](./typ/templates/mod.typ#L14) to ensure type safety. You can add your own tags by adding a new `notes-tags` index.
-
 There is a sample note in [`content/notes/general/note-taking.typ`](content/notes/general/note-taking.typ).
 
 ## Deploying to GitHub Pages

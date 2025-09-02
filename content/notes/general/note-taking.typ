@@ -61,7 +61,7 @@ The `x-topic` belongs to (or, is tagged by) `A` and `B`.
 
 ```typ
 content
-  .gitgnore // specify the private notes
+  .gitignore // specify the private notes
   notes/..
 ```
 

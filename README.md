@@ -4,6 +4,10 @@ My personal notes, powered by [typst](https://github.com/typst/typst).
 
 ## Early Access
 
+[Online Preview](https://myriad-dreamin.github.io/notes/) (todo: special website style for notes).
+
+[效果预览](https://myriad-dreamin.github.io/notes/)（todo: special website style for notes）。
+
 This project is currently in the early access stage. In the short future, I will still focus on writing notes rather than designing and developing note websites or VS Code extensions.
 
 目前仅处于构思阶段。在未来一段时间内，我还是以写笔记为主，而非设计和开发笔记网站或进行笔记 VS Code 扩展。

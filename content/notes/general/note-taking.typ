@@ -43,9 +43,9 @@ The `x-topic` belongs to (or, is tagged by) `A` and `B`.
 
 只要支持editor插件和lsp扩展的编辑器，都可以用来写笔记。
 
-- vscode
-- github.dev
-- neovim
+- VS Code
+- #link("https://github.dev/Myriad-Dreamin/notes/blob/main/content/notes/general/note-taking.typ")[github.dev]
+- Neovim
 
 辅助工具：
 
@@ -120,7 +120,7 @@ content
 
 当本笔记作为页面构建时，可以使用`regex`配置所有的remige为强嵌入。
 
-```
+```typ
 #configure-remige-embedding(
   (true, ),
   // 等价于：
@@ -130,7 +130,7 @@ content
 
 复杂配置：
 
-```
+```typ
 #configure-remige-embedding(
   (path: "path/to/note.typ", label: regex(".*"), strong: true),
 )

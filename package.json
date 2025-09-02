@@ -1,14 +1,29 @@
 {
   "name": "notes",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.5",
+  "workspaces": [
+    ".",
+    "packages/tylant/packages/*"
+  ],
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:cn": "NODE_ENV=cn pnpm build --mode cn",
     "preview": "astro preview",
+    "create:post": "node scripts/create-file.mjs blog-post",
+    "create:archive": "node scripts/create-file.mjs archive-post",
+    "pull-data": "node scripts/pull-data.mjs",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.13.5"
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.4.0",
+    "@fontsource-variable/inter": "^5.2.5",
+    "astro": "^5.8.0",
+    "astro-typst": "0.9.0-rc1"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
   }
 }

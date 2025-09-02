@@ -2,6 +2,24 @@
 
 My personal notes, powered by [typst](https://github.com/typst/typst).
 
+## Early Access
+
+This project is currently in the early access stage. In the short future, I will still focus on writing notes rather than designing and developing note websites or VS Code extensions.
+
+目前仅处于构思阶段。在未来一段时间内，我还是以写笔记为主，而非设计和开发笔记网站或进行笔记 VS Code 扩展。
+
+To preview the note site locally, use typst v0.13.1:
+
+若想要本地预览，使用 typst v0.13.1:
+
+```bash
+typst watch content/notes/general/note-taking.typ --features html --input x-target=html --input x-preview="{}" --root . dist/test.html
+```
+
+To build the note content, check [CI](.github/workflows/gh-pages.yml) for more details.
+
+若想要构建笔记页面，请参考 [CI](.github/workflows/gh-pages.yml) 。
+
 ## Features
 
 - **Tags**: Categorize your notes with tags.

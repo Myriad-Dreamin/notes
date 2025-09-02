@@ -1,5 +1,5 @@
-#import "/typ/templates/blog.typ": *
-#show: main-en.with(
+#import "/typ/templates/note.typ": *
+#show: main-zh.with(
   title: "Index and References",
   desc: [Notes about index and references.],
   date: "2025-09-03",

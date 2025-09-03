@@ -53,6 +53,7 @@
 - 悬浮预览：#link("https://help.obsidian.md/plugins/page-preview")[站内链接页面预览]。
 - 编辑器支持：快速查找、定位和编辑笔记内容。
 - 笔记切面：支持以不同的#link("https://en.wikipedia.org/wiki/Cut_(graph_theory)")[切面]阅读笔记（#link("#label-note-organization")[笔记的组织方式]）。
+- 笔记索引：供其他人引用你的笔记。也可将索引的分类、标签和摘要文件加入LLM上下文，询问笔记中的知识或疑惑。
 
 = 编辑支持 <editor>
 
